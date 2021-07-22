@@ -139,7 +139,7 @@ hook.Add("PlayerUse", "Armor_Test", function(ply,ent)
 
     if ent:GetClass() == "medium kevlar armor" then
         m1 = 40 m2 = 30 m3 = 30 m4 = 20
-        l1 = nil l2 = nil l3 = nil
-        h1 = nil h2 = nil l4 = nil
+        l1 = nil l2 = nil l3 = nil l4 = nil
+        h1 = nil h2 = nil l4 = nil l4 = nil
     end
 end)        
